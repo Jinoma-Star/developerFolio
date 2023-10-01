@@ -28,3 +28,17 @@
 .subTitle {
   color: $subTitle;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #e2d2ff;
+}
+::-webkit-scrollbar-thumb {
+  background: $buttonColor;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $buttonHover;
+}
