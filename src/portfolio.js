@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "I'm Antoine Ramirez. I have completed training in Marketing & Business, Game Design, and Web Development, acquiring a diverse and complementary skill set. As a musician with a passion for the humanities, I combine creativity and precision in my projects. Determined, resilient, and a team player, I am dedicated to achieving ambitious goals. Explore my portfolio to discover more about my journey and accomplishments."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,7 +45,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "WANNABE FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "WANNABE FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -101,9 +101,7 @@ const educationInfo = {
       subHeader: "Bahcelor Marketing & Business",
       duration: "",
       desc: "",
-      descBullets: [
-        ""
-      ]
+      descBullets: [""]
     },
     {
       schoolName: "E-Artsup Lyon",
@@ -191,7 +189,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Mon Vieux Grimoire",
-      projectDesc: "This project involved developing the back-end of a book rating website using Express and MongoDB. The main challenges were securely managing data models for books and ratings, implementing a secure authentication system, and handling the uploading and optimization of images. Adhering to Green Code best practices and adopting the MVC architecture to structure the application also posed significant design and organization challenges.",
+      projectDesc:
+        "This project involved developing the back-end of a book rating website using Express and MongoDB. The main challenges were securely managing data models for books and ratings, implementing a secure authentication system, and handling the uploading and optimization of images. Adhering to Green Code best practices and adopting the MVC architecture to structure the application also posed significant design and organization challenges.",
       footerLink: [
         {
           name: "Visit Website",
@@ -297,7 +296,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false// Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,8 +342,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Want to say hi? My Inbox is open for all.",
+  subtitle: "Want to say hi? My Inbox is open for all.",
   number: "+33635456533",
   email_address: "antoine.ramirez26@gmail.com"
 };

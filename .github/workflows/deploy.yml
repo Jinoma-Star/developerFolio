@@ -29,6 +29,12 @@ jobs:
       - name: Update npm 🚀
         run: npm install -g npm@latest
 
+      - name: Format code 🎨
+        run: npx prettier --write './**/*.{js,css,json,scss}'
+
+      - name: Check format 🎨
+        run: npm run check-format
+
       - name: Install and Build 🔧 # Build the Project
         run: |
           npm install
