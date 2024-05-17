@@ -29,12 +29,6 @@ jobs:
       - name: Update npm 🚀
         run: npm install -g npm@latest
 
-      - name: Format code 🎨
-        run: npx prettier --write './**/*.{js,css,json,scss}'
-
-      - name: Check format 🎨
-        run: npm run check-format
-
       - name: Install and Build 🔧 # Build the Project
         run: |
           npm install
@@ -43,6 +37,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.DEPLOY_TOKEN }} # Use the personal access token
+          token: ${{ secrets.GITHUB_TOKEN }} # Use the correct input name for the token
           branch: gh-pages # The branch the action should deploy to.
           folder: build # The folder the action should deploy.
