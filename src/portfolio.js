@@ -190,8 +190,8 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Mon Vieux Grimoire",
+      projectDesc: "This project involved developing the back-end of a book rating website using Express and MongoDB. The main challenges were securely managing data models for books and ratings, implementing a secure authentication system, and handling the uploading and optimization of images. Adhering to Green Code best practices and adopting the MVC architecture to structure the application also posed significant design and organization challenges.",
       footerLink: [
         {
           name: "Visit Website",
