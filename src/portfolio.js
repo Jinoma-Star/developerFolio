@@ -187,25 +187,36 @@ const bigProjects = {
   subtitle: "SOME PROJECTS I MADE OR TOOK PART IN",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/monvieuxgrimoire01.JPG"),
       projectName: "Mon Vieux Grimoire",
       projectDesc:
         "This project involved developing the back-end of a book rating website using Express and MongoDB. The main challenges were securely managing data models for books and ratings, implementing a secure authentication system, and handling the uploading and optimization of images. Adhering to Green Code best practices and adopting the MVC architecture to structure the application also posed significant design and organization challenges.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Github Link",
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Kasa01.JPG"),
+      projectName: "KASA",
+      projectDesc: "This project involved implementing the front-end of an application using React and React Router to create a modern and responsive user experience. The main difficulties included effectively managing routing between application pages, integrating provided mockups with simulated data from a JSON file, and using SASS for CSS management. The initial setup with Create React App and running JavaScript code with Node.js also presented significant technical challenges.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "GitHub Link",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Nina01.JPG"),
+      projectName: "Nina Carducci Portfolio",
+      projectDesc: "This project involved optimizing a site's SEO and accessibility using tools like Lighthouse and Wave to identify and resolve performance issues. The main difficulties included precisely identifying loading issues, improving the speed and structure of the code, and implementing the recommendations. Creating a report detailing the impacts of the modifications also presented a challenge in clearly illustrating the improvements in terms of SEO and accessibility.",
+      footerLink: [
+        {
+          name: "GitHub Link",
           url: "http://nextu.se/"
         }
       ]
