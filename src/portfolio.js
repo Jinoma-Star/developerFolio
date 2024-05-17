@@ -97,23 +97,23 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Burgundy School of Business",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Bahcelor Marketing & Business",
-      duration: "",
+      logo: require("./assets/images/BSBlogo.png"),
+      subHeader: "Bachelor Marketing & Business",
+      duration: "2014 - 2018",
       desc: "",
       descBullets: [""]
     },
     {
       schoolName: "E-Artsup Lyon",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/eartlogo.jpg"),
       subHeader: "Bachelor Game and Creative Coding",
-      duration: "",
+      duration: "2019 - 2022",
       desc: "",
       descBullets: [""]
     },
     {
       schoolName: "Open Classrooms",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/Logo_OpenClassrooms.png"),
       subHeader: "Web Developer Certificate",
       duration: "November 2023 - May 2024",
       desc: "",
@@ -365,7 +365,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
