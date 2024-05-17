@@ -23,7 +23,7 @@ const greeting = {
   username: "Antoine Ramirez",
   title: "Hi all, I'm Antoine",
   subTitle: emoji(
-    "I'm Antoine Ramirez. I have completed training in business school, Game Design, and Web Development, acquiring a diverse and complementary skill set. As a musician with a passion for the humanities, I combine creativity and precision in my projects. Determined, resilient, and a team player, I am dedicated to achieving ambitious goals. Explore my portfolio to discover more about my journey and accomplishments."
+    "I'm Antoine Ramirez. I have completed training in Marketing & Business, Game Design, and Web Development, acquiring a diverse and complementary skill set. As a musician with a passion for the humanities, I combine creativity and precision in my projects. Determined, resilient, and a team player, I am dedicated to achieving ambitious goals. Explore my portfolio to discover more about my journey and accomplishments."
   ),
   resumeLink:
     "", // Set to empty to hide the button
