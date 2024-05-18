@@ -85,6 +85,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "fas fa-database"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -100,24 +104,24 @@ const educationInfo = {
       logo: require("./assets/images/BSBlogo.png"),
       subHeader: "Bachelor Marketing & Business",
       duration: "2014 - 2018",
-      desc: "",
-      descBullets: [""]
+      desc: "Skills :",
+      descBullets: ["Market analysis and strategy", "Project management", " Communication and negotiation"]
     },
     {
       schoolName: "E-Artsup Lyon",
       logo: require("./assets/images/eartlogo.jpg"),
       subHeader: "Bachelor Game and Creative Coding",
       duration: "2019 - 2022",
-      desc: "",
-      descBullets: [""]
+      desc: "Skills :",
+      descBullets: ["Gameplay design and production managemen", "Programming and prototyping", "Art direction and animation"]
     },
     {
       schoolName: "Open Classrooms",
       logo: require("./assets/images/Logo_OpenClassrooms.png"),
       subHeader: "Web Developer Certificate",
       duration: "November 2023 - May 2024",
-      desc: "",
-      descBullets: [""]
+      desc: "Skills :",
+      descBullets: ["Front-end development", "Introduction to back-end development", "Database management"]
     }
   ]
 };
@@ -194,7 +198,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Github Link",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/Jinoma-Star/Projet-Backend"
         }
         //  you can add extra buttons here.
       ]
@@ -206,7 +210,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "GitHub Link",
-          url: "http://nextu.se/"
+          url: "https://github.com/Jinoma-Star/projet_5_React"
         }
       ]
     },
@@ -217,7 +221,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "GitHub Link",
-          url: "http://nextu.se/"
+          url: "https://github.com/Jinoma-Star/jinoma-star-P4.github.io"
         }
       ]
     }
