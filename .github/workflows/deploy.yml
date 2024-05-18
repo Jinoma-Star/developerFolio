@@ -4,7 +4,7 @@ env:
   GITHUB_USERNAME: ${{ github.repository_owner }}
   REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is automatically set by Github Actions
   USE_GITHUB_DATA: "true"
-  MEDIUM_USERNAME: "saadpasta" # Change this to your medium username
+  MEDIUM_USERNAME: "" # Change this to your medium username
 on:
   workflow_dispatch:
   push:
@@ -19,7 +19,7 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3 # If you're using actions/checkout@v3 you must set persist-credentials to false in most cases for the deployment to work correctly.
         with:
-          persist-credentials: false
+          persist-credentials: true
 
       - name: Setup Node.js 🔧
         uses: actions/setup-node@v3.8.1
