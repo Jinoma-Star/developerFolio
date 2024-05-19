@@ -105,7 +105,11 @@ const educationInfo = {
       subHeader: "Bachelor Marketing & Business",
       duration: "2014 - 2018",
       desc: "Skills :",
-      descBullets: ["Market analysis and strategy", "Project management", " Communication and negotiation"]
+      descBullets: [
+        "Market analysis and strategy",
+        "Project management",
+        " Communication and negotiation"
+      ]
     },
     {
       schoolName: "E-Artsup Lyon",
@@ -113,7 +117,11 @@ const educationInfo = {
       subHeader: "Bachelor Game and Creative Coding",
       duration: "2019 - 2022",
       desc: "Skills :",
-      descBullets: ["Gameplay design and production managemen", "Programming and prototyping", "Art direction and animation"]
+      descBullets: [
+        "Gameplay design and production managemen",
+        "Programming and prototyping",
+        "Art direction and animation"
+      ]
     },
     {
       schoolName: "Open Classrooms",
@@ -121,7 +129,11 @@ const educationInfo = {
       subHeader: "Web Developer Certificate",
       duration: "November 2023 - May 2024",
       desc: "Skills :",
-      descBullets: ["Front-end development", "Introduction to back-end development", "Database management"]
+      descBullets: [
+        "Front-end development",
+        "Introduction to back-end development",
+        "Database management"
+      ]
     }
   ]
 };
@@ -206,7 +218,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Kasa01.JPG"),
       projectName: "KASA",
-      projectDesc: "This project involved implementing the front-end of an application using React and React Router to create a modern and responsive user experience. The main difficulties included effectively managing routing between application pages, integrating provided mockups with simulated data from a JSON file, and using SASS for CSS management. The initial setup with Create React App and running JavaScript code with Node.js also presented significant technical challenges.",
+      projectDesc:
+        "This project involved implementing the front-end of an application using React and React Router to create a modern and responsive user experience. The main difficulties included effectively managing routing between application pages, integrating provided mockups with simulated data from a JSON file, and using SASS for CSS management. The initial setup with Create React App and running JavaScript code with Node.js also presented significant technical challenges.",
       footerLink: [
         {
           name: "GitHub Link",
@@ -217,7 +230,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Nina01.JPG"),
       projectName: "Nina Carducci Portfolio",
-      projectDesc: "This project involved optimizing a site's SEO and accessibility using tools like Lighthouse and Wave to identify and resolve performance issues. The main difficulties included precisely identifying loading issues, improving the speed and structure of the code, and implementing the recommendations. Creating a report detailing the impacts of the modifications also presented a challenge in clearly illustrating the improvements in terms of SEO and accessibility.",
+      projectDesc:
+        "This project involved optimizing a site's SEO and accessibility using tools like Lighthouse and Wave to identify and resolve performance issues. The main difficulties included precisely identifying loading issues, improving the speed and structure of the code, and implementing the recommendations. Creating a report detailing the impacts of the modifications also presented a challenge in clearly illustrating the improvements in terms of SEO and accessibility.",
       footerLink: [
         {
           name: "GitHub Link",

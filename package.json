@@ -28,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "check-format": "prettier --check './**/*.{js,css,json,scss}'",
-    "format": "prettier --write './**/*.{js,css,json,scss}'"
+    "format": " "
   },
   "eslintConfig": {
     "extends": "react-app"
