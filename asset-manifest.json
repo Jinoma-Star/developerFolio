@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.c2a68b33.css",
-    "main.js": "/developerFolio/static/js/main.0f7a25af.js",
-    "static/css/64.bba8fa55.chunk.css": "/developerFolio/static/css/64.bba8fa55.chunk.css",
-    "static/js/64.56dc6704.chunk.js": "/developerFolio/static/js/64.56dc6704.chunk.js",
-    "static/css/769.b3cbb36b.chunk.css": "/developerFolio/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.bda0d7b7.chunk.js": "/developerFolio/static/js/769.bda0d7b7.chunk.js",
+    "main.js": "/developerFolio/static/js/main.514c5c7b.js",
+    "static/css/487.bb36206c.chunk.css": "/developerFolio/static/css/487.bb36206c.chunk.css",
+    "static/js/487.7ae187c0.chunk.js": "/developerFolio/static/js/487.7ae187c0.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/developerFolio/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.567a0b93.chunk.js": "/developerFolio/static/js/990.567a0b93.chunk.js",
     "static/media/Nina01.JPG": "/developerFolio/static/media/Nina01.c8e75b3930dce0b95c6c.JPG",
     "static/media/Kasa01.JPG": "/developerFolio/static/media/Kasa01.4fa264c7be153699df95.JPG",
     "static/media/monvieuxgrimoire01.JPG": "/developerFolio/static/media/monvieuxgrimoire01.6151f60bc1a38d71f19b.JPG",
@@ -25,14 +25,14 @@
     "index.html": "/developerFolio/index.html",
     "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.c2a68b33.css.map": "/developerFolio/static/css/main.c2a68b33.css.map",
-    "main.0f7a25af.js.map": "/developerFolio/static/js/main.0f7a25af.js.map",
-    "64.bba8fa55.chunk.css.map": "/developerFolio/static/css/64.bba8fa55.chunk.css.map",
-    "64.56dc6704.chunk.js.map": "/developerFolio/static/js/64.56dc6704.chunk.js.map",
-    "769.b3cbb36b.chunk.css.map": "/developerFolio/static/css/769.b3cbb36b.chunk.css.map",
-    "769.bda0d7b7.chunk.js.map": "/developerFolio/static/js/769.bda0d7b7.chunk.js.map"
+    "main.514c5c7b.js.map": "/developerFolio/static/js/main.514c5c7b.js.map",
+    "487.bb36206c.chunk.css.map": "/developerFolio/static/css/487.bb36206c.chunk.css.map",
+    "487.7ae187c0.chunk.js.map": "/developerFolio/static/js/487.7ae187c0.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/developerFolio/static/css/990.c6a7ee28.chunk.css.map",
+    "990.567a0b93.chunk.js.map": "/developerFolio/static/js/990.567a0b93.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2a68b33.css",
-    "static/js/main.0f7a25af.js"
+    "static/js/main.514c5c7b.js"
   ]
 }
